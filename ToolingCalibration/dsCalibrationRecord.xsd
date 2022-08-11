@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCalibrationRecord" targetNamespace="http://tempuri.org/dsCalibrationRecord.xsd" xmlns:mstns="http://tempuri.org/dsCalibrationRecord.xsd" xmlns="http://tempuri.org/dsCalibrationRecord.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCalibrationRecord" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsCalibrationRecord" msprop:Generator_UserDSName="dsCalibrationRecord">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblToolCalibrationRecord" msprop:Generator_TableClassName="tblToolCalibrationRecordDataTable" msprop:Generator_TableVarName="tabletblToolCalibrationRecord" msprop:Generator_TablePropName="tblToolCalibrationRecord" msprop:Generator_RowDeletingName="tblToolCalibrationRecordRowDeleting" msprop:Generator_RowChangingName="tblToolCalibrationRecordRowChanging" msprop:Generator_RowEvHandlerName="tblToolCalibrationRecordRowChangeEventHandler" msprop:Generator_RowDeletedName="tblToolCalibrationRecordRowDeleted" msprop:Generator_UserTableName="tblToolCalibrationRecord" msprop:Generator_RowChangedName="tblToolCalibrationRecordRowChanged" msprop:Generator_RowEvArgName="tblToolCalibrationRecordRowChangeEvent" msprop:Generator_RowClassName="tblToolCalibrationRecordRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="ToolID" msprop:Generator_ColumnVarNameInTable="columnToolID" msprop:Generator_ColumnPropNameInRow="ToolID" msprop:Generator_ColumnPropNameInTable="ToolIDColumn" msprop:Generator_UserColumnName="ToolID" type="xs:int" minOccurs="0" />
+              <xs:element name="DateCalibrated" msprop:Generator_ColumnVarNameInTable="columnDateCalibrated" msprop:Generator_ColumnPropNameInRow="DateCalibrated" msprop:Generator_ColumnPropNameInTable="DateCalibratedColumn" msprop:Generator_UserColumnName="DateCalibrated" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CalibratedBy" msprop:Generator_ColumnVarNameInTable="columnCalibratedBy" msprop:Generator_ColumnPropNameInRow="CalibratedBy" msprop:Generator_ColumnPropNameInTable="CalibratedByColumn" msprop:Generator_UserColumnName="CalibratedBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Temperature" msprop:Generator_ColumnVarNameInTable="columnTemperature" msprop:Generator_ColumnPropNameInRow="Temperature" msprop:Generator_ColumnPropNameInTable="TemperatureColumn" msprop:Generator_UserColumnName="Temperature" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Humidity" msprop:Generator_ColumnVarNameInTable="columnHumidity" msprop:Generator_ColumnPropNameInRow="Humidity" msprop:Generator_ColumnPropNameInTable="HumidityColumn" msprop:Generator_UserColumnName="Humidity" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CalStandardID" msprop:Generator_ColumnVarNameInTable="columnCalStandardID" msprop:Generator_ColumnPropNameInRow="CalStandardID" msprop:Generator_ColumnPropNameInTable="CalStandardIDColumn" msprop:Generator_UserColumnName="CalStandardID" type="xs:string" minOccurs="0" />
+              <xs:element name="Instructions" msprop:Generator_ColumnVarNameInTable="columnInstructions" msprop:Generator_ColumnPropNameInRow="Instructions" msprop:Generator_ColumnPropNameInTable="InstructionsColumn" msprop:Generator_UserColumnName="Instructions" type="xs:string" minOccurs="0" />
+              <xs:element name="CalibrationValues" msprop:Generator_ColumnVarNameInTable="columnCalibrationValues" msprop:Generator_ColumnPropNameInRow="CalibrationValues" msprop:Generator_ColumnPropNameInTable="CalibrationValuesColumn" msprop:Generator_UserColumnName="CalibrationValues" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomValue" msprop:Generator_ColumnVarNameInTable="columnNomValue" msprop:Generator_ColumnPropNameInRow="NomValue" msprop:Generator_ColumnPropNameInTable="NomValueColumn" msprop:Generator_UserColumnName="NomValue" type="xs:string" minOccurs="0" />
+              <xs:element name="NomValueTwo" msprop:Generator_ColumnVarNameInTable="columnNomValueTwo" msprop:Generator_ColumnPropNameInRow="NomValueTwo" msprop:Generator_ColumnPropNameInTable="NomValueTwoColumn" msprop:Generator_UserColumnName="NomValueTwo" type="xs:string" minOccurs="0" />
+              <xs:element name="NomValueThree" msprop:Generator_ColumnVarNameInTable="columnNomValueThree" msprop:Generator_ColumnPropNameInRow="NomValueThree" msprop:Generator_ColumnPropNameInTable="NomValueThreeColumn" msprop:Generator_UserColumnName="NomValueThree" type="xs:string" minOccurs="0" />
+              <xs:element name="NomValueFour" msprop:Generator_ColumnVarNameInTable="columnNomValueFour" msprop:Generator_ColumnPropNameInRow="NomValueFour" msprop:Generator_ColumnPropNameInTable="NomValueFourColumn" msprop:Generator_UserColumnName="NomValueFour" type="xs:string" minOccurs="0" />
+              <xs:element name="NomValueFive" msprop:Generator_ColumnVarNameInTable="columnNomValueFive" msprop:Generator_ColumnPropNameInRow="NomValueFive" msprop:Generator_ColumnPropNameInTable="NomValueFiveColumn" msprop:Generator_UserColumnName="NomValueFive" type="xs:string" minOccurs="0" />
+              <xs:element name="NomValueSix" msprop:Generator_ColumnVarNameInTable="columnNomValueSix" msprop:Generator_ColumnPropNameInRow="NomValueSix" msprop:Generator_ColumnPropNameInTable="NomValueSixColumn" msprop:Generator_UserColumnName="NomValueSix" type="xs:string" minOccurs="0" />
+              <xs:element name="NomValueSeven" msprop:Generator_ColumnVarNameInTable="columnNomValueSeven" msprop:Generator_ColumnPropNameInRow="NomValueSeven" msprop:Generator_ColumnPropNameInTable="NomValueSevenColumn" msprop:Generator_UserColumnName="NomValueSeven" type="xs:string" minOccurs="0" />
+              <xs:element name="TolMin" msprop:Generator_ColumnVarNameInTable="columnTolMin" msprop:Generator_ColumnPropNameInRow="TolMin" msprop:Generator_ColumnPropNameInTable="TolMinColumn" msprop:Generator_UserColumnName="TolMin" type="xs:string" minOccurs="0" />
+              <xs:element name="TolPlus" msprop:Generator_ColumnVarNameInTable="columnTolPlus" msprop:Generator_ColumnPropNameInRow="TolPlus" msprop:Generator_ColumnPropNameInTable="TolPlusColumn" msprop:Generator_UserColumnName="TolPlus" type="xs:string" minOccurs="0" />
+              <xs:element name="ActualValue" msprop:Generator_ColumnVarNameInTable="columnActualValue" msprop:Generator_ColumnPropNameInRow="ActualValue" msprop:Generator_ColumnPropNameInTable="ActualValueColumn" msprop:Generator_UserColumnName="ActualValue" type="xs:string" minOccurs="0" />
+              <xs:element name="TolMinTwo" msprop:Generator_ColumnVarNameInTable="columnTolMinTwo" msprop:Generator_ColumnPropNameInRow="TolMinTwo" msprop:Generator_ColumnPropNameInTable="TolMinTwoColumn" msprop:Generator_UserColumnName="TolMinTwo" type="xs:string" minOccurs="0" />
+              <xs:element name="TolPlusTwo" msprop:Generator_ColumnVarNameInTable="columnTolPlusTwo" msprop:Generator_ColumnPropNameInRow="TolPlusTwo" msprop:Generator_ColumnPropNameInTable="TolPlusTwoColumn" msprop:Generator_UserColumnName="TolPlusTwo" type="xs:string" minOccurs="0" />
+              <xs:element name="ActualValueTwo" msprop:Generator_ColumnVarNameInTable="columnActualValueTwo" msprop:Generator_ColumnPropNameInRow="ActualValueTwo" msprop:Generator_ColumnPropNameInTable="ActualValueTwoColumn" msprop:Generator_UserColumnName="ActualValueTwo" type="xs:string" minOccurs="0" />
+              <xs:element name="TolMinThree" msprop:Generator_ColumnVarNameInTable="columnTolMinThree" msprop:Generator_ColumnPropNameInRow="TolMinThree" msprop:Generator_ColumnPropNameInTable="TolMinThreeColumn" msprop:Generator_UserColumnName="TolMinThree" type="xs:string" minOccurs="0" />
+              <xs:element name="TolPlusThree" msprop:Generator_ColumnVarNameInTable="columnTolPlusThree" msprop:Generator_ColumnPropNameInRow="TolPlusThree" msprop:Generator_ColumnPropNameInTable="TolPlusThreeColumn" msprop:Generator_UserColumnName="TolPlusThree" type="xs:string" minOccurs="0" />
+              <xs:element name="ActualValueThree" msprop:Generator_ColumnVarNameInTable="columnActualValueThree" msprop:Generator_ColumnPropNameInRow="ActualValueThree" msprop:Generator_ColumnPropNameInTable="ActualValueThreeColumn" msprop:Generator_UserColumnName="ActualValueThree" type="xs:string" minOccurs="0" />
+              <xs:element name="TolMinFour" msprop:Generator_ColumnVarNameInTable="columnTolMinFour" msprop:Generator_ColumnPropNameInRow="TolMinFour" msprop:Generator_ColumnPropNameInTable="TolMinFourColumn" msprop:Generator_UserColumnName="TolMinFour" type="xs:string" minOccurs="0" />
+              <xs:element name="TolPlusFour" msprop:Generator_ColumnVarNameInTable="columnTolPlusFour" msprop:Generator_ColumnPropNameInRow="TolPlusFour" msprop:Generator_ColumnPropNameInTable="TolPlusFourColumn" msprop:Generator_UserColumnName="TolPlusFour" type="xs:string" minOccurs="0" />
+              <xs:element name="ActualValueFour" msprop:Generator_ColumnVarNameInTable="columnActualValueFour" msprop:Generator_ColumnPropNameInRow="ActualValueFour" msprop:Generator_ColumnPropNameInTable="ActualValueFourColumn" msprop:Generator_UserColumnName="ActualValueFour" type="xs:string" minOccurs="0" />
+              <xs:element name="TolMinFive" msprop:Generator_ColumnVarNameInTable="columnTolMinFive" msprop:Generator_ColumnPropNameInRow="TolMinFive" msprop:Generator_ColumnPropNameInTable="TolMinFiveColumn" msprop:Generator_UserColumnName="TolMinFive" type="xs:string" minOccurs="0" />
+              <xs:element name="TolPlusFive" msprop:Generator_ColumnVarNameInTable="columnTolPlusFive" msprop:Generator_ColumnPropNameInRow="TolPlusFive" msprop:Generator_ColumnPropNameInTable="TolPlusFiveColumn" msprop:Generator_UserColumnName="TolPlusFive" type="xs:string" minOccurs="0" />
+              <xs:element name="ActualValueFive" msprop:Generator_ColumnVarNameInTable="columnActualValueFive" msprop:Generator_ColumnPropNameInRow="ActualValueFive" msprop:Generator_ColumnPropNameInTable="ActualValueFiveColumn" msprop:Generator_UserColumnName="ActualValueFive" type="xs:string" minOccurs="0" />
+              <xs:element name="TolMinSix" msprop:Generator_ColumnVarNameInTable="columnTolMinSix" msprop:Generator_ColumnPropNameInRow="TolMinSix" msprop:Generator_ColumnPropNameInTable="TolMinSixColumn" msprop:Generator_UserColumnName="TolMinSix" type="xs:string" minOccurs="0" />
+              <xs:element name="TolPlusSix" msprop:Generator_ColumnVarNameInTable="columnTolPlusSix" msprop:Generator_ColumnPropNameInRow="TolPlusSix" msprop:Generator_ColumnPropNameInTable="TolPlusSixColumn" msprop:Generator_UserColumnName="TolPlusSix" type="xs:string" minOccurs="0" />
+              <xs:element name="ActualValueSix" msprop:Generator_ColumnVarNameInTable="columnActualValueSix" msprop:Generator_ColumnPropNameInRow="ActualValueSix" msprop:Generator_ColumnPropNameInTable="ActualValueSixColumn" msprop:Generator_UserColumnName="ActualValueSix" type="xs:string" minOccurs="0" />
+              <xs:element name="TolMinSeven" msprop:Generator_ColumnVarNameInTable="columnTolMinSeven" msprop:Generator_ColumnPropNameInRow="TolMinSeven" msprop:Generator_ColumnPropNameInTable="TolMinSevenColumn" msprop:Generator_UserColumnName="TolMinSeven" type="xs:string" minOccurs="0" />
+              <xs:element name="TolPlusSeven" msprop:Generator_ColumnVarNameInTable="columnTolPlusSeven" msprop:Generator_ColumnPropNameInRow="TolPlusSeven" msprop:Generator_ColumnPropNameInTable="TolPlusSevenColumn" msprop:Generator_UserColumnName="TolPlusSeven" type="xs:string" minOccurs="0" />
+              <xs:element name="ActualValueSeven" msprop:Generator_ColumnVarNameInTable="columnActualValueSeven" msprop:Generator_ColumnPropNameInRow="ActualValueSeven" msprop:Generator_ColumnPropNameInTable="ActualValueSevenColumn" msprop:Generator_UserColumnName="ActualValueSeven" type="xs:string" minOccurs="0" />
+              <xs:element name="AdditionalNotes" msprop:Generator_ColumnVarNameInTable="columnAdditionalNotes" msprop:Generator_ColumnPropNameInRow="AdditionalNotes" msprop:Generator_ColumnPropNameInTable="AdditionalNotesColumn" msprop:Generator_UserColumnName="AdditionalNotes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FunctionalAndSecure" msprop:Generator_ColumnVarNameInTable="columnFunctionalAndSecure" msprop:Generator_ColumnPropNameInRow="FunctionalAndSecure" msprop:Generator_ColumnPropNameInTable="FunctionalAndSecureColumn" msprop:Generator_UserColumnName="FunctionalAndSecure" type="xs:string" minOccurs="0" />
+              <xs:element name="ReviewedBy" msprop:Generator_ColumnVarNameInTable="columnReviewedBy" msprop:Generator_ColumnPropNameInRow="ReviewedBy" msprop:Generator_ColumnPropNameInTable="ReviewedByColumn" msprop:Generator_UserColumnName="ReviewedBy" type="xs:string" minOccurs="0" />
+              <xs:element name="AdditionalNotesActions" msprop:Generator_ColumnVarNameInTable="columnAdditionalNotesActions" msprop:Generator_ColumnPropNameInRow="AdditionalNotesActions" msprop:Generator_ColumnPropNameInTable="AdditionalNotesActionsColumn" msprop:Generator_UserColumnName="AdditionalNotesActions" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblToolCalibrationRecord" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

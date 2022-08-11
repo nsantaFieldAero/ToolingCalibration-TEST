@@ -14,6 +14,24 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\ken-resourcesan.fieldcorp.local\fieldcorp\public\ToolingCalibration\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>25</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -24,6 +42,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>ToolingCalibration.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,11 +66,46 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>DE82E53F6569C256238A4236D1DBCF3F8E1E9FE0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ToolingCalibration_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.18.3, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -60,6 +114,7 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
+    <Import Include="CrystalDecisions.Web.HtmlReportRender" />
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
     <Import Include="System.Collections" />
@@ -73,11 +128,135 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="AddNewTool.Designer.vb">
+      <DependentUpon>AddNewTool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewTool.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="AdminUsers.Designer.vb">
+      <DependentUpon>AdminUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="basdeclares.vb" />
+    <Compile Include="CalibrationRecord.Designer.vb">
+      <DependentUpon>CalibrationRecord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CalibrationRecord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crCalibDueAssignTo.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crCalibDueAssignTo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crToolsCalibrationRecord.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crToolsCalibrationRecord.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsAdmin.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAdmin.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCalibrationRecord.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCalibrationRecord.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCalibrationRecord.vb">
+      <DependentUpon>dsCalibrationRecord.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsEdit.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEdit.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsManufacturer.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsManufacturer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsOracleToolAssign.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOracleToolAssign.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsToolCalibration.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsToolCalibration.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsToolIssuedOut.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsToolIssuedOut.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsToolIssues.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsToolIssues.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsToolIssues.vb">
+      <DependentUpon>dsToolIssues.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsVendorCalibration.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsVendorCalibration.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibDueAssignTo.Designer.vb">
+      <DependentUpon>frmCalibDueAssignTo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibDueAssignTo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibrationRecordsReport.Designer.vb">
+      <DependentUpon>frmCalibrationRecordsReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibrationRecordsReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewReport.Designer.vb">
+      <DependentUpon>frmViewReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manufacturer.Designer.vb">
+      <DependentUpon>Manufacturer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manufacturer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tool Issued Out.Designer.vb">
+      <DependentUpon>Tool Issued Out.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tool Issued Out.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolAssignment.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ToolAssignment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ToolIssues.Designer.vb">
+      <DependentUpon>ToolIssues.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ToolIssues.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools.Designer.vb">
+      <DependentUpon>Tools.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -95,16 +274,167 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Vendor.Designer.vb">
+      <DependentUpon>Vendor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AddNewTool.resx">
+      <DependentUpon>AddNewTool.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUsers.resx">
+      <DependentUpon>AdminUsers.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalibrationRecord.resx">
+      <DependentUpon>CalibrationRecord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crCalibDueAssignTo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crCalibDueAssignTo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crToolsCalibrationRecord.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crToolsCalibrationRecord.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibDueAssignTo.resx">
+      <DependentUpon>frmCalibDueAssignTo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationRecordsReport.resx">
+      <DependentUpon>frmCalibrationRecordsReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewReport.resx">
+      <DependentUpon>frmViewReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manufacturer.resx">
+      <DependentUpon>Manufacturer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tool Issued Out.resx">
+      <DependentUpon>Tool Issued Out.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolIssues.resx">
+      <DependentUpon>ToolIssues.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools.resx">
+      <DependentUpon>Tools.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vendor.resx">
+      <DependentUpon>Vendor.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="dsAdmin.xsc">
+      <DependentUpon>dsAdmin.xsd</DependentUpon>
+    </None>
+    <None Include="dsAdmin.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAdmin.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAdmin.xss">
+      <DependentUpon>dsAdmin.xsd</DependentUpon>
+    </None>
+    <None Include="dsCalibrationRecord.xsc">
+      <DependentUpon>dsCalibrationRecord.xsd</DependentUpon>
+    </None>
+    <None Include="dsCalibrationRecord.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCalibrationRecord.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCalibrationRecord.xss">
+      <DependentUpon>dsCalibrationRecord.xsd</DependentUpon>
+    </None>
+    <None Include="dsEdit.xsc">
+      <DependentUpon>dsEdit.xsd</DependentUpon>
+    </None>
+    <None Include="dsEdit.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEdit.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsEdit.xss">
+      <DependentUpon>dsEdit.xsd</DependentUpon>
+    </None>
+    <None Include="dsManufacturer.xsc">
+      <DependentUpon>dsManufacturer.xsd</DependentUpon>
+    </None>
+    <None Include="dsManufacturer.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsManufacturer.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsManufacturer.xss">
+      <DependentUpon>dsManufacturer.xsd</DependentUpon>
+    </None>
+    <None Include="dsOracleToolAssign.xsc">
+      <DependentUpon>dsOracleToolAssign.xsd</DependentUpon>
+    </None>
+    <None Include="dsOracleToolAssign.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOracleToolAssign.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsOracleToolAssign.xss">
+      <DependentUpon>dsOracleToolAssign.xsd</DependentUpon>
+    </None>
+    <None Include="dsToolCalibration.xsc">
+      <DependentUpon>dsToolCalibration.xsd</DependentUpon>
+    </None>
+    <None Include="dsToolCalibration.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsToolCalibration.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsToolCalibration.xss">
+      <DependentUpon>dsToolCalibration.xsd</DependentUpon>
+    </None>
+    <None Include="dsToolIssuedOut.xsc">
+      <DependentUpon>dsToolIssuedOut.xsd</DependentUpon>
+    </None>
+    <None Include="dsToolIssuedOut.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsToolIssuedOut.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsToolIssuedOut.xss">
+      <DependentUpon>dsToolIssuedOut.xsd</DependentUpon>
+    </None>
+    <None Include="dsToolIssues.xsc">
+      <DependentUpon>dsToolIssues.xsd</DependentUpon>
+    </None>
+    <None Include="dsToolIssues.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsToolIssues.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsToolIssues.xss">
+      <DependentUpon>dsToolIssues.xsd</DependentUpon>
+    </None>
+    <None Include="dsVendorCalibration.xsc">
+      <DependentUpon>dsVendorCalibration.xsd</DependentUpon>
+    </None>
+    <None Include="dsVendorCalibration.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsVendorCalibration.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsVendorCalibration.xss">
+      <DependentUpon>dsVendorCalibration.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -115,6 +445,47 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="ToolAssignment.xsc">
+      <DependentUpon>ToolAssignment.xsd</DependentUpon>
+    </None>
+    <None Include="ToolAssignment.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ToolAssignment.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ToolAssignment.xss">
+      <DependentUpon>ToolAssignment.xsd</DependentUpon>
+    </None>
+    <None Include="ToolingCalibration_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="SAP.CrystalReports14.NET.2.0">
+      <Visible>False</Visible>
+      <ProductName>SAP Crystal Reports Runtime Engine for .NET Framework</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="M:\nsantagata\OriginalUtilityProgram\Utility\Utility.vbproj">
+      <Project>{23254088-fe9c-415f-b58e-4840b8656456}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

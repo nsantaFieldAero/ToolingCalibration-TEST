@@ -1,0 +1,1019 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsOracleToolAssign" targetNamespace="http://tempuri.org/dsOracleToolAssign.xsd" xmlns:mstns="http://tempuri.org/dsOracleToolAssign.xsd" xmlns="http://tempuri.org/dsOracleToolAssign.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsOracleToolAssign" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsOracleToolAssign" msprop:Generator_DataSetName="dsOracleToolAssign">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="F060116" msprop:Generator_TableClassName="F060116DataTable" msprop:Generator_TableVarName="tableF060116" msprop:Generator_TablePropName="F060116" msprop:Generator_RowDeletingName="F060116RowDeleting" msprop:Generator_RowChangingName="F060116RowChanging" msprop:Generator_RowEvHandlerName="F060116RowChangeEventHandler" msprop:Generator_RowDeletedName="F060116RowDeleted" msprop:Generator_UserTableName="F060116" msprop:Generator_RowChangedName="F060116RowChanged" msprop:Generator_RowEvArgName="F060116RowChangeEvent" msprop:Generator_RowClassName="F060116Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="YAAN8" msprop:Generator_ColumnVarNameInTable="columnYAAN8" msprop:Generator_ColumnPropNameInRow="YAAN8" msprop:Generator_ColumnPropNameInTable="YAAN8Column" msprop:Generator_UserColumnName="YAAN8" type="xs:decimal" />
+              <xs:element name="YAALPH" msprop:Generator_ColumnVarNameInTable="columnYAALPH" msprop:Generator_ColumnPropNameInRow="YAALPH" msprop:Generator_ColumnPropNameInTable="YAALPHColumn" msprop:Generator_UserColumnName="YAALPH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YASSN" msprop:Generator_ColumnVarNameInTable="columnYASSN" msprop:Generator_ColumnPropNameInRow="YASSN" msprop:Generator_ColumnPropNameInTable="YASSNColumn" msprop:Generator_UserColumnName="YASSN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAOEMP" msprop:Generator_ColumnVarNameInTable="columnYAOEMP" msprop:Generator_ColumnPropNameInRow="YAOEMP" msprop:Generator_ColumnPropNameInTable="YAOEMPColumn" msprop:Generator_UserColumnName="YAOEMP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YASEX" msprop:Generator_ColumnVarNameInTable="columnYASEX" msprop:Generator_ColumnPropNameInRow="YASEX" msprop:Generator_ColumnPropNameInTable="YASEXColumn" msprop:Generator_UserColumnName="YASEX" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAMSTX" msprop:Generator_ColumnVarNameInTable="columnYAMSTX" msprop:Generator_ColumnPropNameInRow="YAMSTX" msprop:Generator_ColumnPropNameInTable="YAMSTXColumn" msprop:Generator_UserColumnName="YAMSTX" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAMSTI" msprop:Generator_ColumnVarNameInTable="columnYAMSTI" msprop:Generator_ColumnPropNameInRow="YAMSTI" msprop:Generator_ColumnPropNameInTable="YAMSTIColumn" msprop:Generator_UserColumnName="YAMSTI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAWSPS" msprop:Generator_ColumnVarNameInTable="columnYAWSPS" msprop:Generator_ColumnPropNameInRow="YAWSPS" msprop:Generator_ColumnPropNameInTable="YAWSPSColumn" msprop:Generator_UserColumnName="YAWSPS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAEIC" msprop:Generator_ColumnVarNameInTable="columnYAEIC" msprop:Generator_ColumnPropNameInRow="YAEIC" msprop:Generator_ColumnPropNameInTable="YAEICColumn" msprop:Generator_UserColumnName="YAEIC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YANDEP" msprop:Generator_ColumnVarNameInTable="columnYANDEP" msprop:Generator_ColumnPropNameInRow="YANDEP" msprop:Generator_ColumnPropNameInTable="YANDEPColumn" msprop:Generator_UserColumnName="YANDEP" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAEST" msprop:Generator_ColumnVarNameInTable="columnYAEST" msprop:Generator_ColumnPropNameInRow="YAEST" msprop:Generator_ColumnPropNameInTable="YAESTColumn" msprop:Generator_UserColumnName="YAEST" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAECNT" msprop:Generator_ColumnVarNameInTable="columnYAECNT" msprop:Generator_ColumnPropNameInRow="YAECNT" msprop:Generator_ColumnPropNameInTable="YAECNTColumn" msprop:Generator_UserColumnName="YAECNT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YATARR" msprop:Generator_ColumnVarNameInTable="columnYATARR" msprop:Generator_ColumnPropNameInRow="YATARR" msprop:Generator_ColumnPropNameInTable="YATARRColumn" msprop:Generator_UserColumnName="YATARR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YATARA" msprop:Generator_ColumnVarNameInTable="columnYATARA" msprop:Generator_ColumnPropNameInRow="YATARA" msprop:Generator_ColumnPropNameInTable="YATARAColumn" msprop:Generator_UserColumnName="YATARA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YASCDC" msprop:Generator_ColumnVarNameInTable="columnYASCDC" msprop:Generator_ColumnPropNameInRow="YASCDC" msprop:Generator_ColumnPropNameInTable="YASCDCColumn" msprop:Generator_UserColumnName="YASCDC" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAHMST" msprop:Generator_ColumnVarNameInTable="columnYAHMST" msprop:Generator_ColumnPropNameInRow="YAHMST" msprop:Generator_ColumnPropNameInTable="YAHMSTColumn" msprop:Generator_UserColumnName="YAHMST" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAWKSE" msprop:Generator_ColumnVarNameInTable="columnYAWKSE" msprop:Generator_ColumnPropNameInRow="YAWKSE" msprop:Generator_ColumnPropNameInTable="YAWKSEColumn" msprop:Generator_UserColumnName="YAWKSE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAHMLC" msprop:Generator_ColumnVarNameInTable="columnYAHMLC" msprop:Generator_ColumnPropNameInRow="YAHMLC" msprop:Generator_ColumnPropNameInTable="YAHMLCColumn" msprop:Generator_UserColumnName="YAHMLC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YALWK1" msprop:Generator_ColumnVarNameInTable="columnYALWK1" msprop:Generator_ColumnPropNameInRow="YALWK1" msprop:Generator_ColumnPropNameInTable="YALWK1Column" msprop:Generator_UserColumnName="YALWK1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YALWK2" msprop:Generator_ColumnVarNameInTable="columnYALWK2" msprop:Generator_ColumnPropNameInRow="YALWK2" msprop:Generator_ColumnPropNameInTable="YALWK2Column" msprop:Generator_UserColumnName="YALWK2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAHMCO" msprop:Generator_ColumnVarNameInTable="columnYAHMCO" msprop:Generator_ColumnPropNameInRow="YAHMCO" msprop:Generator_ColumnPropNameInTable="YAHMCOColumn" msprop:Generator_UserColumnName="YAHMCO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAMCU" msprop:Generator_ColumnVarNameInTable="columnYAMCU" msprop:Generator_ColumnPropNameInRow="YAMCU" msprop:Generator_ColumnPropNameInTable="YAMCUColumn" msprop:Generator_UserColumnName="YAMCU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAHMCU" msprop:Generator_ColumnVarNameInTable="columnYAHMCU" msprop:Generator_ColumnPropNameInRow="YAHMCU" msprop:Generator_ColumnPropNameInTable="YAHMCUColumn" msprop:Generator_UserColumnName="YAHMCU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YASG" msprop:Generator_ColumnVarNameInTable="columnYASG" msprop:Generator_ColumnPropNameInRow="YASG" msprop:Generator_ColumnPropNameInTable="YASGColumn" msprop:Generator_UserColumnName="YASG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAMAIL" msprop:Generator_ColumnVarNameInTable="columnYAMAIL" msprop:Generator_ColumnPropNameInRow="YAMAIL" msprop:Generator_ColumnPropNameInTable="YAMAILColumn" msprop:Generator_UserColumnName="YAMAIL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAPAST" msprop:Generator_ColumnVarNameInTable="columnYAPAST" msprop:Generator_ColumnPropNameInRow="YAPAST" msprop:Generator_ColumnPropNameInTable="YAPASTColumn" msprop:Generator_UserColumnName="YAPAST" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAPFRQ" msprop:Generator_ColumnVarNameInTable="columnYAPFRQ" msprop:Generator_ColumnPropNameInRow="YAPFRQ" msprop:Generator_ColumnPropNameInTable="YAPFRQColumn" msprop:Generator_UserColumnName="YAPFRQ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YASALY" msprop:Generator_ColumnVarNameInTable="columnYASALY" msprop:Generator_ColumnPropNameInRow="YASALY" msprop:Generator_ColumnPropNameInTable="YASALYColumn" msprop:Generator_UserColumnName="YASALY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAPYCB" msprop:Generator_ColumnVarNameInTable="columnYAPYCB" msprop:Generator_ColumnPropNameInRow="YAPYCB" msprop:Generator_ColumnPropNameInTable="YAPYCBColumn" msprop:Generator_UserColumnName="YAPYCB" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YABCB" msprop:Generator_ColumnVarNameInTable="columnYABCB" msprop:Generator_ColumnPropNameInRow="YABCB" msprop:Generator_ColumnPropNameInTable="YABCBColumn" msprop:Generator_UserColumnName="YABCB" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAUN" msprop:Generator_ColumnVarNameInTable="columnYAUN" msprop:Generator_ColumnPropNameInRow="YAUN" msprop:Generator_ColumnPropNameInTable="YAUNColumn" msprop:Generator_UserColumnName="YAUN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAJBCD" msprop:Generator_ColumnVarNameInTable="columnYAJBCD" msprop:Generator_ColumnPropNameInRow="YAJBCD" msprop:Generator_ColumnPropNameInTable="YAJBCDColumn" msprop:Generator_UserColumnName="YAJBCD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAJBST" msprop:Generator_ColumnVarNameInTable="columnYAJBST" msprop:Generator_ColumnPropNameInRow="YAJBST" msprop:Generator_ColumnPropNameInTable="YAJBSTColumn" msprop:Generator_UserColumnName="YAJBST" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAEEOJ" msprop:Generator_ColumnVarNameInTable="columnYAEEOJ" msprop:Generator_ColumnPropNameInRow="YAEEOJ" msprop:Generator_ColumnPropNameInTable="YAEEOJColumn" msprop:Generator_UserColumnName="YAEEOJ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAEEOM" msprop:Generator_ColumnVarNameInTable="columnYAEEOM" msprop:Generator_ColumnPropNameInRow="YAEEOM" msprop:Generator_ColumnPropNameInTable="YAEEOMColumn" msprop:Generator_UserColumnName="YAEEOM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YATRS" msprop:Generator_ColumnVarNameInTable="columnYATRS" msprop:Generator_ColumnPropNameInRow="YATRS" msprop:Generator_ColumnPropNameInTable="YATRSColumn" msprop:Generator_UserColumnName="YATRS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAWCMP" msprop:Generator_ColumnVarNameInTable="columnYAWCMP" msprop:Generator_ColumnPropNameInRow="YAWCMP" msprop:Generator_ColumnPropNameInTable="YAWCMPColumn" msprop:Generator_UserColumnName="YAWCMP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAFLSA" msprop:Generator_ColumnVarNameInTable="columnYAFLSA" msprop:Generator_ColumnPropNameInRow="YAFLSA" msprop:Generator_ColumnPropNameInTable="YAFLSAColumn" msprop:Generator_UserColumnName="YAFLSA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAWS" msprop:Generator_ColumnVarNameInTable="columnYAWS" msprop:Generator_ColumnPropNameInRow="YAWS" msprop:Generator_ColumnPropNameInTable="YAWSColumn" msprop:Generator_UserColumnName="YAWS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YASHFT" msprop:Generator_ColumnVarNameInTable="columnYASHFT" msprop:Generator_ColumnPropNameInRow="YASHFT" msprop:Generator_ColumnPropNameInTable="YASHFTColumn" msprop:Generator_UserColumnName="YASHFT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YALMTH" msprop:Generator_ColumnVarNameInTable="columnYALMTH" msprop:Generator_ColumnPropNameInRow="YALMTH" msprop:Generator_ColumnPropNameInTable="YALMTHColumn" msprop:Generator_UserColumnName="YALMTH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAPBRT" msprop:Generator_ColumnVarNameInTable="columnYAPBRT" msprop:Generator_ColumnPropNameInRow="YAPBRT" msprop:Generator_ColumnPropNameInTable="YAPBRTColumn" msprop:Generator_UserColumnName="YAPBRT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YALF" msprop:Generator_ColumnVarNameInTable="columnYALF" msprop:Generator_ColumnPropNameInRow="YALF" msprop:Generator_ColumnPropNameInTable="YALFColumn" msprop:Generator_UserColumnName="YALF" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YASAL" msprop:Generator_ColumnVarNameInTable="columnYASAL" msprop:Generator_ColumnPropNameInRow="YASAL" msprop:Generator_ColumnPropNameInTable="YASALColumn" msprop:Generator_UserColumnName="YASAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAPHRT" msprop:Generator_ColumnVarNameInTable="columnYAPHRT" msprop:Generator_ColumnPropNameInRow="YAPHRT" msprop:Generator_ColumnPropNameInTable="YAPHRTColumn" msprop:Generator_UserColumnName="YAPHRT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAPPRT" msprop:Generator_ColumnVarNameInTable="columnYAPPRT" msprop:Generator_ColumnPropNameInRow="YAPPRT" msprop:Generator_ColumnPropNameInTable="YAPPRTColumn" msprop:Generator_UserColumnName="YAPPRT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAPWRN" msprop:Generator_ColumnVarNameInTable="columnYAPWRN" msprop:Generator_ColumnPropNameInRow="YAPWRN" msprop:Generator_ColumnPropNameInTable="YAPWRNColumn" msprop:Generator_UserColumnName="YAPWRN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAHRTN" msprop:Generator_ColumnVarNameInTable="columnYAHRTN" msprop:Generator_ColumnPropNameInRow="YAHRTN" msprop:Generator_ColumnPropNameInTable="YAHRTNColumn" msprop:Generator_UserColumnName="YAHRTN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YABRTN" msprop:Generator_ColumnVarNameInTable="columnYABRTN" msprop:Generator_ColumnPropNameInRow="YABRTN" msprop:Generator_ColumnPropNameInTable="YABRTNColumn" msprop:Generator_UserColumnName="YABRTN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YASALN" msprop:Generator_ColumnVarNameInTable="columnYASALN" msprop:Generator_ColumnPropNameInRow="YASALN" msprop:Generator_ColumnPropNameInTable="YASALNColumn" msprop:Generator_UserColumnName="YASALN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YASTDH" msprop:Generator_ColumnVarNameInTable="columnYASTDH" msprop:Generator_ColumnPropNameInRow="YASTDH" msprop:Generator_ColumnPropNameInTable="YASTDHColumn" msprop:Generator_UserColumnName="YASTDH" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YASTDD" msprop:Generator_ColumnVarNameInTable="columnYASTDD" msprop:Generator_ColumnPropNameInRow="YASTDD" msprop:Generator_ColumnPropNameInTable="YASTDDColumn" msprop:Generator_UserColumnName="YASTDD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YASDYY" msprop:Generator_ColumnVarNameInTable="columnYASDYY" msprop:Generator_ColumnPropNameInRow="YASDYY" msprop:Generator_ColumnPropNameInTable="YASDYYColumn" msprop:Generator_UserColumnName="YASDYY" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAUSR" msprop:Generator_ColumnVarNameInTable="columnYAUSR" msprop:Generator_ColumnPropNameInRow="YAUSR" msprop:Generator_ColumnPropNameInTable="YAUSRColumn" msprop:Generator_UserColumnName="YAUSR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAUFLG" msprop:Generator_ColumnVarNameInTable="columnYAUFLG" msprop:Generator_ColumnPropNameInRow="YAUFLG" msprop:Generator_ColumnPropNameInTable="YAUFLGColumn" msprop:Generator_UserColumnName="YAUFLG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YANS" msprop:Generator_ColumnVarNameInTable="columnYANS" msprop:Generator_ColumnPropNameInRow="YANS" msprop:Generator_ColumnPropNameInTable="YANSColumn" msprop:Generator_UserColumnName="YANS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAIFN" msprop:Generator_ColumnVarNameInTable="columnYAIFN" msprop:Generator_ColumnPropNameInRow="YAIFN" msprop:Generator_ColumnPropNameInTable="YAIFNColumn" msprop:Generator_UserColumnName="YAIFN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAIMN" msprop:Generator_ColumnVarNameInTable="columnYAIMN" msprop:Generator_ColumnPropNameInRow="YAIMN" msprop:Generator_ColumnPropNameInTable="YAIMNColumn" msprop:Generator_UserColumnName="YAIMN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YADOB" msprop:Generator_ColumnVarNameInTable="columnYADOB" msprop:Generator_ColumnPropNameInRow="YADOB" msprop:Generator_ColumnPropNameInTable="YADOBColumn" msprop:Generator_UserColumnName="YADOB" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YADSI" msprop:Generator_ColumnVarNameInTable="columnYADSI" msprop:Generator_ColumnPropNameInRow="YADSI" msprop:Generator_ColumnPropNameInTable="YADSIColumn" msprop:Generator_UserColumnName="YADSI" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YADT" msprop:Generator_ColumnVarNameInTable="columnYADT" msprop:Generator_ColumnPropNameInRow="YADT" msprop:Generator_ColumnPropNameInTable="YADTColumn" msprop:Generator_UserColumnName="YADT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YADST" msprop:Generator_ColumnVarNameInTable="columnYADST" msprop:Generator_ColumnPropNameInRow="YADST" msprop:Generator_ColumnPropNameInTable="YADSTColumn" msprop:Generator_UserColumnName="YADST" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAPSDT" msprop:Generator_ColumnVarNameInTable="columnYAPSDT" msprop:Generator_ColumnPropNameInRow="YAPSDT" msprop:Generator_ColumnPropNameInTable="YAPSDTColumn" msprop:Generator_UserColumnName="YAPSDT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAPTDT" msprop:Generator_ColumnVarNameInTable="columnYAPTDT" msprop:Generator_ColumnPropNameInRow="YAPTDT" msprop:Generator_ColumnPropNameInTable="YAPTDTColumn" msprop:Generator_UserColumnName="YAPTDT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YANRDT" msprop:Generator_ColumnVarNameInTable="columnYANRDT" msprop:Generator_ColumnPropNameInRow="YANRDT" msprop:Generator_ColumnPropNameInTable="YANRDTColumn" msprop:Generator_UserColumnName="YANRDT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YANBDT" msprop:Generator_ColumnVarNameInTable="columnYANBDT" msprop:Generator_ColumnPropNameInRow="YANBDT" msprop:Generator_ColumnPropNameInTable="YANBDTColumn" msprop:Generator_UserColumnName="YANBDT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YANPDT" msprop:Generator_ColumnVarNameInTable="columnYANPDT" msprop:Generator_ColumnPropNameInRow="YANPDT" msprop:Generator_ColumnPropNameInTable="YANPDTColumn" msprop:Generator_UserColumnName="YANPDT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YALCDT" msprop:Generator_ColumnVarNameInTable="columnYALCDT" msprop:Generator_ColumnPropNameInRow="YALCDT" msprop:Generator_ColumnPropNameInTable="YALCDTColumn" msprop:Generator_UserColumnName="YALCDT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YADR" msprop:Generator_ColumnVarNameInTable="columnYADR" msprop:Generator_ColumnPropNameInRow="YADR" msprop:Generator_ColumnPropNameInTable="YADRColumn" msprop:Generator_UserColumnName="YADR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YACTDT" msprop:Generator_ColumnVarNameInTable="columnYACTDT" msprop:Generator_ColumnPropNameInRow="YACTDT" msprop:Generator_ColumnPropNameInTable="YACTDTColumn" msprop:Generator_UserColumnName="YACTDT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YALADT" msprop:Generator_ColumnVarNameInTable="columnYALADT" msprop:Generator_ColumnPropNameInRow="YALADT" msprop:Generator_ColumnPropNameInTable="YALADTColumn" msprop:Generator_UserColumnName="YALADT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YABSDT" msprop:Generator_ColumnVarNameInTable="columnYABSDT" msprop:Generator_ColumnPropNameInRow="YABSDT" msprop:Generator_ColumnPropNameInTable="YABSDTColumn" msprop:Generator_UserColumnName="YABSDT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YACPDT" msprop:Generator_ColumnVarNameInTable="columnYACPDT" msprop:Generator_ColumnPropNameInRow="YACPDT" msprop:Generator_ColumnPropNameInTable="YACPDTColumn" msprop:Generator_UserColumnName="YACPDT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAFICM" msprop:Generator_ColumnVarNameInTable="columnYAFICM" msprop:Generator_ColumnPropNameInRow="YAFICM" msprop:Generator_ColumnPropNameInTable="YAFICMColumn" msprop:Generator_UserColumnName="YAFICM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP001" msprop:Generator_ColumnVarNameInTable="columnYAP001" msprop:Generator_ColumnPropNameInRow="YAP001" msprop:Generator_ColumnPropNameInTable="YAP001Column" msprop:Generator_UserColumnName="YAP001" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP002" msprop:Generator_ColumnVarNameInTable="columnYAP002" msprop:Generator_ColumnPropNameInRow="YAP002" msprop:Generator_ColumnPropNameInTable="YAP002Column" msprop:Generator_UserColumnName="YAP002" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP003" msprop:Generator_ColumnVarNameInTable="columnYAP003" msprop:Generator_ColumnPropNameInRow="YAP003" msprop:Generator_ColumnPropNameInTable="YAP003Column" msprop:Generator_UserColumnName="YAP003" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP004" msprop:Generator_ColumnVarNameInTable="columnYAP004" msprop:Generator_ColumnPropNameInRow="YAP004" msprop:Generator_ColumnPropNameInTable="YAP004Column" msprop:Generator_UserColumnName="YAP004" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP005" msprop:Generator_ColumnVarNameInTable="columnYAP005" msprop:Generator_ColumnPropNameInRow="YAP005" msprop:Generator_ColumnPropNameInTable="YAP005Column" msprop:Generator_UserColumnName="YAP005" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP006" msprop:Generator_ColumnVarNameInTable="columnYAP006" msprop:Generator_ColumnPropNameInRow="YAP006" msprop:Generator_ColumnPropNameInTable="YAP006Column" msprop:Generator_UserColumnName="YAP006" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP007" msprop:Generator_ColumnVarNameInTable="columnYAP007" msprop:Generator_ColumnPropNameInRow="YAP007" msprop:Generator_ColumnPropNameInTable="YAP007Column" msprop:Generator_UserColumnName="YAP007" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP008" msprop:Generator_ColumnVarNameInTable="columnYAP008" msprop:Generator_ColumnPropNameInRow="YAP008" msprop:Generator_ColumnPropNameInTable="YAP008Column" msprop:Generator_UserColumnName="YAP008" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP009" msprop:Generator_ColumnVarNameInTable="columnYAP009" msprop:Generator_ColumnPropNameInRow="YAP009" msprop:Generator_ColumnPropNameInTable="YAP009Column" msprop:Generator_UserColumnName="YAP009" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP010" msprop:Generator_ColumnVarNameInTable="columnYAP010" msprop:Generator_ColumnPropNameInRow="YAP010" msprop:Generator_ColumnPropNameInTable="YAP010Column" msprop:Generator_UserColumnName="YAP010" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP011" msprop:Generator_ColumnVarNameInTable="columnYAP011" msprop:Generator_ColumnPropNameInRow="YAP011" msprop:Generator_ColumnPropNameInTable="YAP011Column" msprop:Generator_UserColumnName="YAP011" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP012" msprop:Generator_ColumnVarNameInTable="columnYAP012" msprop:Generator_ColumnPropNameInRow="YAP012" msprop:Generator_ColumnPropNameInTable="YAP012Column" msprop:Generator_UserColumnName="YAP012" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP013" msprop:Generator_ColumnVarNameInTable="columnYAP013" msprop:Generator_ColumnPropNameInRow="YAP013" msprop:Generator_ColumnPropNameInTable="YAP013Column" msprop:Generator_UserColumnName="YAP013" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP014" msprop:Generator_ColumnVarNameInTable="columnYAP014" msprop:Generator_ColumnPropNameInRow="YAP014" msprop:Generator_ColumnPropNameInTable="YAP014Column" msprop:Generator_UserColumnName="YAP014" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP015" msprop:Generator_ColumnVarNameInTable="columnYAP015" msprop:Generator_ColumnPropNameInRow="YAP015" msprop:Generator_ColumnPropNameInTable="YAP015Column" msprop:Generator_UserColumnName="YAP015" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP016" msprop:Generator_ColumnVarNameInTable="columnYAP016" msprop:Generator_ColumnPropNameInRow="YAP016" msprop:Generator_ColumnPropNameInTable="YAP016Column" msprop:Generator_UserColumnName="YAP016" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP017" msprop:Generator_ColumnVarNameInTable="columnYAP017" msprop:Generator_ColumnPropNameInRow="YAP017" msprop:Generator_ColumnPropNameInTable="YAP017Column" msprop:Generator_UserColumnName="YAP017" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP018" msprop:Generator_ColumnVarNameInTable="columnYAP018" msprop:Generator_ColumnPropNameInRow="YAP018" msprop:Generator_ColumnPropNameInTable="YAP018Column" msprop:Generator_UserColumnName="YAP018" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP019" msprop:Generator_ColumnVarNameInTable="columnYAP019" msprop:Generator_ColumnPropNameInRow="YAP019" msprop:Generator_ColumnPropNameInTable="YAP019Column" msprop:Generator_UserColumnName="YAP019" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAP020" msprop:Generator_ColumnVarNameInTable="columnYAP020" msprop:Generator_ColumnPropNameInRow="YAP020" msprop:Generator_ColumnPropNameInTable="YAP020Column" msprop:Generator_UserColumnName="YAP020" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAE001" msprop:Generator_ColumnVarNameInTable="columnYAE001" msprop:Generator_ColumnPropNameInRow="YAE001" msprop:Generator_ColumnPropNameInTable="YAE001Column" msprop:Generator_UserColumnName="YAE001" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAE002" msprop:Generator_ColumnVarNameInTable="columnYAE002" msprop:Generator_ColumnPropNameInRow="YAE002" msprop:Generator_ColumnPropNameInTable="YAE002Column" msprop:Generator_UserColumnName="YAE002" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAE003" msprop:Generator_ColumnVarNameInTable="columnYAE003" msprop:Generator_ColumnPropNameInRow="YAE003" msprop:Generator_ColumnPropNameInTable="YAE003Column" msprop:Generator_UserColumnName="YAE003" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAE004" msprop:Generator_ColumnVarNameInTable="columnYAE004" msprop:Generator_ColumnPropNameInRow="YAE004" msprop:Generator_ColumnPropNameInTable="YAE004Column" msprop:Generator_UserColumnName="YAE004" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAE005" msprop:Generator_ColumnVarNameInTable="columnYAE005" msprop:Generator_ColumnPropNameInRow="YAE005" msprop:Generator_ColumnPropNameInTable="YAE005Column" msprop:Generator_UserColumnName="YAE005" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAE006" msprop:Generator_ColumnVarNameInTable="columnYAE006" msprop:Generator_ColumnPropNameInRow="YAE006" msprop:Generator_ColumnPropNameInTable="YAE006Column" msprop:Generator_UserColumnName="YAE006" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAE007" msprop:Generator_ColumnVarNameInTable="columnYAE007" msprop:Generator_ColumnPropNameInRow="YAE007" msprop:Generator_ColumnPropNameInTable="YAE007Column" msprop:Generator_UserColumnName="YAE007" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAE008" msprop:Generator_ColumnVarNameInTable="columnYAE008" msprop:Generator_ColumnPropNameInRow="YAE008" msprop:Generator_ColumnPropNameInTable="YAE008Column" msprop:Generator_UserColumnName="YAE008" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAE009" msprop:Generator_ColumnVarNameInTable="columnYAE009" msprop:Generator_ColumnPropNameInRow="YAE009" msprop:Generator_ColumnPropNameInTable="YAE009Column" msprop:Generator_UserColumnName="YAE009" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAE010" msprop:Generator_ColumnVarNameInTable="columnYAE010" msprop:Generator_ColumnPropNameInRow="YAE010" msprop:Generator_ColumnPropNameInTable="YAE010Column" msprop:Generator_UserColumnName="YAE010" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAICC" msprop:Generator_ColumnVarNameInTable="columnYAICC" msprop:Generator_ColumnPropNameInRow="YAICC" msprop:Generator_ColumnPropNameInTable="YAICCColumn" msprop:Generator_UserColumnName="YAICC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YANMAX" msprop:Generator_ColumnVarNameInTable="columnYANMAX" msprop:Generator_ColumnPropNameInRow="YANMAX" msprop:Generator_ColumnPropNameInTable="YANMAXColumn" msprop:Generator_UserColumnName="YANMAX" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YASOCC" msprop:Generator_ColumnVarNameInTable="columnYASOCC" msprop:Generator_ColumnPropNameInRow="YASOCC" msprop:Generator_ColumnPropNameInTable="YASOCCColumn" msprop:Generator_UserColumnName="YASOCC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAIUSR" msprop:Generator_ColumnVarNameInTable="columnYAIUSR" msprop:Generator_ColumnPropNameInRow="YAIUSR" msprop:Generator_ColumnPropNameInTable="YAIUSRColumn" msprop:Generator_UserColumnName="YAIUSR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAITRM" msprop:Generator_ColumnVarNameInTable="columnYAITRM" msprop:Generator_ColumnPropNameInRow="YAITRM" msprop:Generator_ColumnPropNameInTable="YAITRMColumn" msprop:Generator_UserColumnName="YAITRM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAINBT" msprop:Generator_ColumnVarNameInTable="columnYAINBT" msprop:Generator_ColumnPropNameInRow="YAINBT" msprop:Generator_ColumnPropNameInTable="YAINBTColumn" msprop:Generator_UserColumnName="YAINBT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAREGN" msprop:Generator_ColumnVarNameInTable="columnYAREGN" msprop:Generator_ColumnPropNameInRow="YAREGN" msprop:Generator_ColumnPropNameInTable="YAREGNColumn" msprop:Generator_UserColumnName="YAREGN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAPSTP" msprop:Generator_ColumnVarNameInTable="columnYAPSTP" msprop:Generator_ColumnPropNameInRow="YAPSTP" msprop:Generator_ColumnPropNameInTable="YAPSTPColumn" msprop:Generator_UserColumnName="YAPSTP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAIH" msprop:Generator_ColumnVarNameInTable="columnYAIH" msprop:Generator_ColumnPropNameInRow="YAIH" msprop:Generator_ColumnPropNameInTable="YAIHColumn" msprop:Generator_UserColumnName="YAIH" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YACCPR" msprop:Generator_ColumnVarNameInTable="columnYACCPR" msprop:Generator_ColumnPropNameInRow="YACCPR" msprop:Generator_ColumnPropNameInTable="YACCPRColumn" msprop:Generator_UserColumnName="YACCPR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAADPN" msprop:Generator_ColumnVarNameInTable="columnYAADPN" msprop:Generator_ColumnPropNameInRow="YAADPN" msprop:Generator_ColumnPropNameInTable="YAADPNColumn" msprop:Generator_UserColumnName="YAADPN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YATCNF" msprop:Generator_ColumnVarNameInTable="columnYATCNF" msprop:Generator_ColumnPropNameInRow="YATCNF" msprop:Generator_ColumnPropNameInTable="YATCNFColumn" msprop:Generator_UserColumnName="YATCNF" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YARAF" msprop:Generator_ColumnVarNameInTable="columnYARAF" msprop:Generator_ColumnPropNameInRow="YARAF" msprop:Generator_ColumnPropNameInTable="YARAFColumn" msprop:Generator_UserColumnName="YARAF" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YATIPE" msprop:Generator_ColumnVarNameInTable="columnYATIPE" msprop:Generator_ColumnPropNameInRow="YATIPE" msprop:Generator_ColumnPropNameInTable="YATIPEColumn" msprop:Generator_UserColumnName="YATIPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YARCCD" msprop:Generator_ColumnVarNameInTable="columnYARCCD" msprop:Generator_ColumnPropNameInRow="YARCCD" msprop:Generator_ColumnPropNameInTable="YARCCDColumn" msprop:Generator_UserColumnName="YARCCD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YABDRT" msprop:Generator_ColumnVarNameInTable="columnYABDRT" msprop:Generator_ColumnPropNameInRow="YABDRT" msprop:Generator_ColumnPropNameInTable="YABDRTColumn" msprop:Generator_UserColumnName="YABDRT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YABORN" msprop:Generator_ColumnVarNameInTable="columnYABORN" msprop:Generator_ColumnPropNameInRow="YABORN" msprop:Generator_ColumnPropNameInTable="YABORNColumn" msprop:Generator_UserColumnName="YABORN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YANBDR" msprop:Generator_ColumnVarNameInTable="columnYANBDR" msprop:Generator_ColumnPropNameInRow="YANBDR" msprop:Generator_ColumnPropNameInTable="YANBDRColumn" msprop:Generator_UserColumnName="YANBDR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAWET" msprop:Generator_ColumnVarNameInTable="columnYAWET" msprop:Generator_ColumnPropNameInRow="YAWET" msprop:Generator_ColumnPropNameInTable="YAWETColumn" msprop:Generator_UserColumnName="YAWET" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAAFLG" msprop:Generator_ColumnVarNameInTable="columnYAAFLG" msprop:Generator_ColumnPropNameInRow="YAAFLG" msprop:Generator_ColumnPropNameInTable="YAAFLGColumn" msprop:Generator_UserColumnName="YAAFLG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YARMST" msprop:Generator_ColumnVarNameInTable="columnYARMST" msprop:Generator_ColumnPropNameInRow="YARMST" msprop:Generator_ColumnPropNameInTable="YARMSTColumn" msprop:Generator_UserColumnName="YARMST" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YALMST" msprop:Generator_ColumnVarNameInTable="columnYALMST" msprop:Generator_ColumnPropNameInRow="YALMST" msprop:Generator_ColumnPropNameInTable="YALMSTColumn" msprop:Generator_UserColumnName="YALMST" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YASMKR" msprop:Generator_ColumnVarNameInTable="columnYASMKR" msprop:Generator_ColumnPropNameInRow="YASMKR" msprop:Generator_ColumnPropNameInTable="YASMKRColumn" msprop:Generator_UserColumnName="YASMKR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YACBAC" msprop:Generator_ColumnVarNameInTable="columnYACBAC" msprop:Generator_ColumnPropNameInRow="YACBAC" msprop:Generator_ColumnPropNameInTable="YACBACColumn" msprop:Generator_UserColumnName="YACBAC" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YACBAF" msprop:Generator_ColumnVarNameInTable="columnYACBAF" msprop:Generator_ColumnPropNameInRow="YACBAF" msprop:Generator_ColumnPropNameInTable="YACBAFColumn" msprop:Generator_UserColumnName="YACBAF" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAPCCD" msprop:Generator_ColumnVarNameInTable="columnYAPCCD" msprop:Generator_ColumnPropNameInRow="YAPCCD" msprop:Generator_ColumnPropNameInTable="YAPCCDColumn" msprop:Generator_UserColumnName="YAPCCD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YARCDT" msprop:Generator_ColumnVarNameInTable="columnYARCDT" msprop:Generator_ColumnPropNameInRow="YARCDT" msprop:Generator_ColumnPropNameInTable="YARCDTColumn" msprop:Generator_UserColumnName="YARCDT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YALSDT" msprop:Generator_ColumnVarNameInTable="columnYALSDT" msprop:Generator_ColumnPropNameInRow="YALSDT" msprop:Generator_ColumnPropNameInTable="YALSDTColumn" msprop:Generator_UserColumnName="YALSDT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAPADT" msprop:Generator_ColumnVarNameInTable="columnYAPADT" msprop:Generator_ColumnPropNameInRow="YAPADT" msprop:Generator_ColumnPropNameInTable="YAPADTColumn" msprop:Generator_UserColumnName="YAPADT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAPYMH" msprop:Generator_ColumnVarNameInTable="columnYAPYMH" msprop:Generator_ColumnPropNameInRow="YAPYMH" msprop:Generator_ColumnPropNameInTable="YAPYMHColumn" msprop:Generator_UserColumnName="YAPYMH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAUYST" msprop:Generator_ColumnVarNameInTable="columnYAUYST" msprop:Generator_ColumnPropNameInRow="YAUYST" msprop:Generator_ColumnPropNameInTable="YAUYSTColumn" msprop:Generator_UserColumnName="YAUYST" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YADTSP" msprop:Generator_ColumnVarNameInTable="columnYADTSP" msprop:Generator_ColumnPropNameInRow="YADTSP" msprop:Generator_ColumnPropNameInTable="YADTSPColumn" msprop:Generator_UserColumnName="YADTSP" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAANN8" msprop:Generator_ColumnVarNameInTable="columnYAANN8" msprop:Generator_ColumnPropNameInRow="YAANN8" msprop:Generator_ColumnPropNameInTable="YAANN8Column" msprop:Generator_UserColumnName="YAANN8" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAPPNB" msprop:Generator_ColumnVarNameInTable="columnYAPPNB" msprop:Generator_ColumnPropNameInRow="YAPPNB" msprop:Generator_ColumnPropNameInTable="YAPPNBColumn" msprop:Generator_UserColumnName="YAPPNB" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAPYDT" msprop:Generator_ColumnVarNameInTable="columnYAPYDT" msprop:Generator_ColumnPropNameInRow="YAPYDT" msprop:Generator_ColumnPropNameInTable="YAPYDTColumn" msprop:Generator_UserColumnName="YAPYDT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YACBEN" msprop:Generator_ColumnVarNameInTable="columnYACBEN" msprop:Generator_ColumnPropNameInRow="YACBEN" msprop:Generator_ColumnPropNameInTable="YACBENColumn" msprop:Generator_UserColumnName="YACBEN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YADOBM" msprop:Generator_ColumnVarNameInTable="columnYADOBM" msprop:Generator_ColumnPropNameInRow="YADOBM" msprop:Generator_ColumnPropNameInTable="YADOBMColumn" msprop:Generator_UserColumnName="YADOBM" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YADSTM" msprop:Generator_ColumnVarNameInTable="columnYADSTM" msprop:Generator_ColumnPropNameInRow="YADSTM" msprop:Generator_ColumnPropNameInTable="YADSTMColumn" msprop:Generator_UserColumnName="YADSTM" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAPSAL" msprop:Generator_ColumnVarNameInTable="columnYAPSAL" msprop:Generator_ColumnPropNameInRow="YAPSAL" msprop:Generator_ColumnPropNameInTable="YAPSALColumn" msprop:Generator_UserColumnName="YAPSAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAHIPN" msprop:Generator_ColumnVarNameInTable="columnYAHIPN" msprop:Generator_ColumnPropNameInRow="YAHIPN" msprop:Generator_ColumnPropNameInTable="YAHIPNColumn" msprop:Generator_UserColumnName="YAHIPN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YACM" msprop:Generator_ColumnVarNameInTable="columnYACM" msprop:Generator_ColumnPropNameInRow="YACM" msprop:Generator_ColumnPropNameInTable="YACMColumn" msprop:Generator_UserColumnName="YACM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YALSAL" msprop:Generator_ColumnVarNameInTable="columnYALSAL" msprop:Generator_ColumnPropNameInRow="YALSAL" msprop:Generator_ColumnPropNameInTable="YALSALColumn" msprop:Generator_UserColumnName="YALSAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YADIVC" msprop:Generator_ColumnVarNameInTable="columnYADIVC" msprop:Generator_ColumnPropNameInRow="YADIVC" msprop:Generator_ColumnPropNameInTable="YADIVCColumn" msprop:Generator_UserColumnName="YADIVC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAVSHF" msprop:Generator_ColumnVarNameInTable="columnYAVSHF" msprop:Generator_ColumnPropNameInRow="YAVSHF" msprop:Generator_ColumnPropNameInTable="YAVSHFColumn" msprop:Generator_UserColumnName="YAVSHF" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAPYRV" msprop:Generator_ColumnVarNameInTable="columnYAPYRV" msprop:Generator_ColumnPropNameInRow="YAPYRV" msprop:Generator_ColumnPropNameInTable="YAPYRVColumn" msprop:Generator_UserColumnName="YAPYRV" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAANPA" msprop:Generator_ColumnVarNameInTable="columnYAANPA" msprop:Generator_ColumnPropNameInRow="YAANPA" msprop:Generator_ColumnPropNameInTable="YAANPAColumn" msprop:Generator_UserColumnName="YAANPA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAPGRD" msprop:Generator_ColumnVarNameInTable="columnYAPGRD" msprop:Generator_ColumnPropNameInRow="YAPGRD" msprop:Generator_ColumnPropNameInTable="YAPGRDColumn" msprop:Generator_UserColumnName="YAPGRD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAPGRS" msprop:Generator_ColumnVarNameInTable="columnYAPGRS" msprop:Generator_ColumnPropNameInRow="YAPGRS" msprop:Generator_ColumnPropNameInTable="YAPGRSColumn" msprop:Generator_UserColumnName="YAPGRS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YASLOC" msprop:Generator_ColumnVarNameInTable="columnYASLOC" msprop:Generator_ColumnPropNameInRow="YASLOC" msprop:Generator_ColumnPropNameInTable="YASLOCColumn" msprop:Generator_UserColumnName="YASLOC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YANRVW" msprop:Generator_ColumnVarNameInTable="columnYANRVW" msprop:Generator_ColumnPropNameInRow="YANRVW" msprop:Generator_ColumnPropNameInTable="YANRVWColumn" msprop:Generator_UserColumnName="YANRVW" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YATINC" msprop:Generator_ColumnVarNameInTable="columnYATINC" msprop:Generator_ColumnPropNameInRow="YATINC" msprop:Generator_ColumnPropNameInTable="YATINCColumn" msprop:Generator_UserColumnName="YATINC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAHM01" msprop:Generator_ColumnVarNameInTable="columnYAHM01" msprop:Generator_ColumnPropNameInRow="YAHM01" msprop:Generator_ColumnPropNameInTable="YAHM01Column" msprop:Generator_UserColumnName="YAHM01" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAHM02" msprop:Generator_ColumnVarNameInTable="columnYAHM02" msprop:Generator_ColumnPropNameInRow="YAHM02" msprop:Generator_ColumnPropNameInTable="YAHM02Column" msprop:Generator_UserColumnName="YAHM02" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAHM03" msprop:Generator_ColumnVarNameInTable="columnYAHM03" msprop:Generator_ColumnPropNameInRow="YAHM03" msprop:Generator_ColumnPropNameInTable="YAHM03Column" msprop:Generator_UserColumnName="YAHM03" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAHM04" msprop:Generator_ColumnVarNameInTable="columnYAHM04" msprop:Generator_ColumnPropNameInRow="YAHM04" msprop:Generator_ColumnPropNameInTable="YAHM04Column" msprop:Generator_UserColumnName="YAHM04" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAPOS" msprop:Generator_ColumnVarNameInTable="columnYAPOS" msprop:Generator_ColumnPropNameInRow="YAPOS" msprop:Generator_ColumnPropNameInTable="YAPOSColumn" msprop:Generator_UserColumnName="YAPOS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAED01" msprop:Generator_ColumnVarNameInTable="columnYAED01" msprop:Generator_ColumnPropNameInRow="YAED01" msprop:Generator_ColumnPropNameInTable="YAED01Column" msprop:Generator_UserColumnName="YAED01" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED02" msprop:Generator_ColumnVarNameInTable="columnYAED02" msprop:Generator_ColumnPropNameInRow="YAED02" msprop:Generator_ColumnPropNameInTable="YAED02Column" msprop:Generator_UserColumnName="YAED02" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED03" msprop:Generator_ColumnVarNameInTable="columnYAED03" msprop:Generator_ColumnPropNameInRow="YAED03" msprop:Generator_ColumnPropNameInTable="YAED03Column" msprop:Generator_UserColumnName="YAED03" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED04" msprop:Generator_ColumnVarNameInTable="columnYAED04" msprop:Generator_ColumnPropNameInRow="YAED04" msprop:Generator_ColumnPropNameInTable="YAED04Column" msprop:Generator_UserColumnName="YAED04" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED05" msprop:Generator_ColumnVarNameInTable="columnYAED05" msprop:Generator_ColumnPropNameInRow="YAED05" msprop:Generator_ColumnPropNameInTable="YAED05Column" msprop:Generator_UserColumnName="YAED05" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED06" msprop:Generator_ColumnVarNameInTable="columnYAED06" msprop:Generator_ColumnPropNameInRow="YAED06" msprop:Generator_ColumnPropNameInTable="YAED06Column" msprop:Generator_UserColumnName="YAED06" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED07" msprop:Generator_ColumnVarNameInTable="columnYAED07" msprop:Generator_ColumnPropNameInRow="YAED07" msprop:Generator_ColumnPropNameInTable="YAED07Column" msprop:Generator_UserColumnName="YAED07" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED08" msprop:Generator_ColumnVarNameInTable="columnYAED08" msprop:Generator_ColumnPropNameInRow="YAED08" msprop:Generator_ColumnPropNameInTable="YAED08Column" msprop:Generator_UserColumnName="YAED08" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED09" msprop:Generator_ColumnVarNameInTable="columnYAED09" msprop:Generator_ColumnPropNameInRow="YAED09" msprop:Generator_ColumnPropNameInTable="YAED09Column" msprop:Generator_UserColumnName="YAED09" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED10" msprop:Generator_ColumnVarNameInTable="columnYAED10" msprop:Generator_ColumnPropNameInRow="YAED10" msprop:Generator_ColumnPropNameInTable="YAED10Column" msprop:Generator_UserColumnName="YAED10" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED11" msprop:Generator_ColumnVarNameInTable="columnYAED11" msprop:Generator_ColumnPropNameInRow="YAED11" msprop:Generator_ColumnPropNameInTable="YAED11Column" msprop:Generator_UserColumnName="YAED11" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED12" msprop:Generator_ColumnVarNameInTable="columnYAED12" msprop:Generator_ColumnPropNameInRow="YAED12" msprop:Generator_ColumnPropNameInTable="YAED12Column" msprop:Generator_UserColumnName="YAED12" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED13" msprop:Generator_ColumnVarNameInTable="columnYAED13" msprop:Generator_ColumnPropNameInRow="YAED13" msprop:Generator_ColumnPropNameInTable="YAED13Column" msprop:Generator_UserColumnName="YAED13" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED14" msprop:Generator_ColumnVarNameInTable="columnYAED14" msprop:Generator_ColumnPropNameInRow="YAED14" msprop:Generator_ColumnPropNameInTable="YAED14Column" msprop:Generator_UserColumnName="YAED14" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED15" msprop:Generator_ColumnVarNameInTable="columnYAED15" msprop:Generator_ColumnPropNameInRow="YAED15" msprop:Generator_ColumnPropNameInTable="YAED15Column" msprop:Generator_UserColumnName="YAED15" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED16" msprop:Generator_ColumnVarNameInTable="columnYAED16" msprop:Generator_ColumnPropNameInRow="YAED16" msprop:Generator_ColumnPropNameInTable="YAED16Column" msprop:Generator_UserColumnName="YAED16" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED17" msprop:Generator_ColumnVarNameInTable="columnYAED17" msprop:Generator_ColumnPropNameInRow="YAED17" msprop:Generator_ColumnPropNameInTable="YAED17Column" msprop:Generator_UserColumnName="YAED17" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED18" msprop:Generator_ColumnVarNameInTable="columnYAED18" msprop:Generator_ColumnPropNameInRow="YAED18" msprop:Generator_ColumnPropNameInTable="YAED18Column" msprop:Generator_UserColumnName="YAED18" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED19" msprop:Generator_ColumnVarNameInTable="columnYAED19" msprop:Generator_ColumnPropNameInRow="YAED19" msprop:Generator_ColumnPropNameInTable="YAED19Column" msprop:Generator_UserColumnName="YAED19" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAED20" msprop:Generator_ColumnVarNameInTable="columnYAED20" msprop:Generator_ColumnPropNameInRow="YAED20" msprop:Generator_ColumnPropNameInTable="YAED20Column" msprop:Generator_UserColumnName="YAED20" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YADEPT" msprop:Generator_ColumnVarNameInTable="columnYADEPT" msprop:Generator_ColumnPropNameInRow="YADEPT" msprop:Generator_ColumnPropNameInTable="YADEPTColumn" msprop:Generator_UserColumnName="YADEPT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAFAGE" msprop:Generator_ColumnVarNameInTable="columnYAFAGE" msprop:Generator_ColumnPropNameInRow="YAFAGE" msprop:Generator_ColumnPropNameInTable="YAFAGEColumn" msprop:Generator_UserColumnName="YAFAGE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAFSAL" msprop:Generator_ColumnVarNameInTable="columnYAFSAL" msprop:Generator_ColumnPropNameInRow="YAFSAL" msprop:Generator_ColumnPropNameInTable="YAFSALColumn" msprop:Generator_UserColumnName="YAFSAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAADSD" msprop:Generator_ColumnVarNameInTable="columnYAADSD" msprop:Generator_ColumnPropNameInRow="YAADSD" msprop:Generator_ColumnPropNameInTable="YAADSDColumn" msprop:Generator_UserColumnName="YAADSD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YACMPA" msprop:Generator_ColumnVarNameInTable="columnYACMPA" msprop:Generator_ColumnPropNameInRow="YACMPA" msprop:Generator_ColumnPropNameInTable="YACMPAColumn" msprop:Generator_UserColumnName="YACMPA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAEPNT" msprop:Generator_ColumnVarNameInTable="columnYAEPNT" msprop:Generator_ColumnPropNameInRow="YAEPNT" msprop:Generator_ColumnPropNameInTable="YAEPNTColumn" msprop:Generator_UserColumnName="YAEPNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAJOBN" msprop:Generator_ColumnVarNameInTable="columnYAJOBN" msprop:Generator_ColumnPropNameInRow="YAJOBN" msprop:Generator_ColumnPropNameInTable="YAJOBNColumn" msprop:Generator_UserColumnName="YAJOBN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAUSER" msprop:Generator_ColumnVarNameInTable="columnYAUSER" msprop:Generator_ColumnPropNameInRow="YAUSER" msprop:Generator_ColumnPropNameInTable="YAUSERColumn" msprop:Generator_UserColumnName="YAUSER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAPID" msprop:Generator_ColumnVarNameInTable="columnYAPID" msprop:Generator_ColumnPropNameInRow="YAPID" msprop:Generator_ColumnPropNameInTable="YAPIDColumn" msprop:Generator_UserColumnName="YAPID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAUPMJ" msprop:Generator_ColumnVarNameInTable="columnYAUPMJ" msprop:Generator_ColumnPropNameInRow="YAUPMJ" msprop:Generator_ColumnPropNameInTable="YAUPMJColumn" msprop:Generator_UserColumnName="YAUPMJ" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAK001" msprop:Generator_ColumnVarNameInTable="columnYAK001" msprop:Generator_ColumnPropNameInRow="YAK001" msprop:Generator_ColumnPropNameInTable="YAK001Column" msprop:Generator_UserColumnName="YAK001" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAK002" msprop:Generator_ColumnVarNameInTable="columnYAK002" msprop:Generator_ColumnPropNameInRow="YAK002" msprop:Generator_ColumnPropNameInTable="YAK002Column" msprop:Generator_UserColumnName="YAK002" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAK003" msprop:Generator_ColumnVarNameInTable="columnYAK003" msprop:Generator_ColumnPropNameInRow="YAK003" msprop:Generator_ColumnPropNameInTable="YAK003Column" msprop:Generator_UserColumnName="YAK003" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAK004" msprop:Generator_ColumnVarNameInTable="columnYAK004" msprop:Generator_ColumnPropNameInRow="YAK004" msprop:Generator_ColumnPropNameInTable="YAK004Column" msprop:Generator_UserColumnName="YAK004" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAK005" msprop:Generator_ColumnVarNameInTable="columnYAK005" msprop:Generator_ColumnPropNameInRow="YAK005" msprop:Generator_ColumnPropNameInTable="YAK005Column" msprop:Generator_UserColumnName="YAK005" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAK006" msprop:Generator_ColumnVarNameInTable="columnYAK006" msprop:Generator_ColumnPropNameInRow="YAK006" msprop:Generator_ColumnPropNameInTable="YAK006Column" msprop:Generator_UserColumnName="YAK006" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAK007" msprop:Generator_ColumnVarNameInTable="columnYAK007" msprop:Generator_ColumnPropNameInRow="YAK007" msprop:Generator_ColumnPropNameInTable="YAK007Column" msprop:Generator_UserColumnName="YAK007" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAK008" msprop:Generator_ColumnVarNameInTable="columnYAK008" msprop:Generator_ColumnPropNameInRow="YAK008" msprop:Generator_ColumnPropNameInTable="YAK008Column" msprop:Generator_UserColumnName="YAK008" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAK009" msprop:Generator_ColumnVarNameInTable="columnYAK009" msprop:Generator_ColumnPropNameInRow="YAK009" msprop:Generator_ColumnPropNameInTable="YAK009Column" msprop:Generator_UserColumnName="YAK009" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAK010" msprop:Generator_ColumnVarNameInTable="columnYAK010" msprop:Generator_ColumnPropNameInRow="YAK010" msprop:Generator_ColumnPropNameInTable="YAK010Column" msprop:Generator_UserColumnName="YAK010" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAATPY" msprop:Generator_ColumnVarNameInTable="columnYAATPY" msprop:Generator_ColumnPropNameInRow="YAATPY" msprop:Generator_ColumnPropNameInTable="YAATPYColumn" msprop:Generator_UserColumnName="YAATPY" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAPENS" msprop:Generator_ColumnVarNameInTable="columnYAPENS" msprop:Generator_ColumnPropNameInRow="YAPENS" msprop:Generator_ColumnPropNameInTable="YAPENSColumn" msprop:Generator_UserColumnName="YAPENS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAORG" msprop:Generator_ColumnVarNameInTable="columnYAORG" msprop:Generator_ColumnPropNameInRow="YAORG" msprop:Generator_ColumnPropNameInTable="YAORGColumn" msprop:Generator_UserColumnName="YAORG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YABENS" msprop:Generator_ColumnVarNameInTable="columnYABENS" msprop:Generator_ColumnPropNameInRow="YABENS" msprop:Generator_ColumnPropNameInTable="YABENSColumn" msprop:Generator_UserColumnName="YABENS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YAFTE" msprop:Generator_ColumnVarNameInTable="columnYAFTE" msprop:Generator_ColumnPropNameInRow="YAFTE" msprop:Generator_ColumnPropNameInTable="YAFTEColumn" msprop:Generator_UserColumnName="YAFTE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YAAAF" msprop:Generator_ColumnVarNameInTable="columnYAAAF" msprop:Generator_ColumnPropNameInRow="YAAAF" msprop:Generator_ColumnPropNameInTable="YAAAFColumn" msprop:Generator_UserColumnName="YAAAF" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YASUI" msprop:Generator_ColumnVarNameInTable="columnYASUI" msprop:Generator_ColumnPropNameInRow="YASUI" msprop:Generator_ColumnPropNameInTable="YASUIColumn" msprop:Generator_UserColumnName="YASUI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YADTSF" msprop:Generator_ColumnVarNameInTable="columnYADTSF" msprop:Generator_ColumnPropNameInRow="YADTSF" msprop:Generator_ColumnPropNameInTable="YADTSFColumn" msprop:Generator_UserColumnName="YADTSF" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YASMOY" msprop:Generator_ColumnVarNameInTable="columnYASMOY" msprop:Generator_ColumnPropNameInRow="YASMOY" msprop:Generator_ColumnPropNameInTable="YASMOYColumn" msprop:Generator_UserColumnName="YASMOY" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YALDID" msprop:Generator_ColumnVarNameInTable="columnYALDID" msprop:Generator_ColumnPropNameInRow="YALDID" msprop:Generator_ColumnPropNameInTable="YALDIDColumn" msprop:Generator_UserColumnName="YALDID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YATTAR" msprop:Generator_ColumnVarNameInTable="columnYATTAR" msprop:Generator_ColumnPropNameInRow="YATTAR" msprop:Generator_ColumnPropNameInTable="YATTARColumn" msprop:Generator_UserColumnName="YATTAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:F060116" />
+      <xs:field xpath="mstns:YAAN8" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
