@@ -25,6 +25,6 @@
     Public NomValueFive As String
     Public NomValueSix As String
     Public NomValueSeven As String
-    Dim test22 As String
+    Dim test4 As String
 
 End Module
